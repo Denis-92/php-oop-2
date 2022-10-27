@@ -6,6 +6,7 @@ class Prodotto {
     public $marca;
     public $prezzo = 0;
     public $descrizioneProdotto = "";
+    public $categoriaProdotto;
 
     function __construct( $_nomeProdotto, $_marca, $_prezzo ) {
         $this->nomeProdotto = $_nomeProdotto;
