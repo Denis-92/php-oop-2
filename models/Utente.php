@@ -8,7 +8,7 @@ class Utente extends Ospite {
     
     public function completaOrdine() {
         $scontoUtenteRegistrato = (parent::completaOrdine()) * (80/100);
-        return $$scontoUtenteRegistrato;
+        return $scontoUtenteRegistrato;
     }
 
 }
