@@ -13,14 +13,17 @@
 
     <?php
 
-        require_once __DIR__ . "models/Prodotto.php";
-        require_once __DIR__ . "models/AlimentareProdotto.php";
-        require_once __DIR__ . "models/GiocattoloProdotto.php";
-        require_once __DIR__ . "models/VarieProdotto.php";
-        require_once __DIR__ . "models/Ospite.php";
-        require_once __DIR__ . "models/Utente.php";
+        require_once __DIR__ . "/models/Prodotto.php";
+        require_once __DIR__ . "/models/AlimentareProdotto.php";
+        require_once __DIR__ . "/models/GiocattoloProdotto.php";
+        require_once __DIR__ . "/models/VarieProdotto.php";
+        require_once __DIR__ . "/models/Ospite.php";
+        require_once __DIR__ . "/models/Utente.php";
 
         $articolo1 = new AlimentareProdotto("Crocchette", "Barilla", 20);
+
+        echo "<button><a href='#'>Aggiungi al carrello</a></button>";
+        //$articolo1->aggiungiProdotto();
 
 
 
